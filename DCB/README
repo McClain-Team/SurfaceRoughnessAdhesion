@@ -1,0 +1,8 @@
+Data for each sample
+  Sample (Material, number, assigned sequentially, three digits) (e.g. PVDF001)
+  Date printed
+  Spool
+  Date cast
+  Dims
+  Profilimeter reading
+  UTM data (txt, test data if different than standard (2mm/min))

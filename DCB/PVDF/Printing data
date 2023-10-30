@@ -42,6 +42,9 @@ PVDF002
     L 124.61
     W 23.78, f, 23.87, m, 23.86, spacer
     H 3.22, f, 3.22, m, 3.18, spacer
+  Cast
+  Up face in
+  Mold 1
 
 PVDF003
   P25
@@ -56,6 +59,9 @@ PVDF003
     L 124.51
     W 23.81, f, 23.79, m, 23.82, spacer
     H 3.24, f, 3.24, m, 3.24, spacer
+  Cast
+  Up face in
+  Mold 2
 
 PVDF004
   P25
@@ -70,6 +76,9 @@ PVDF004
     L 124.54
     W 23.94, f, 23.88, m, 23.86, spacer
     H 3.27, f, 3.27, m, 3.24, spacer
+  Cast
+  Down Face in
+  Mold 1
 
 PVDF005
   P25
@@ -84,6 +93,9 @@ PVDF005
     L 124.49
     W 23.81, f, 23.86, m, 23.86, spacer
     H 3.23, f, 3.26, m, 3.26, spacer
+  Cast
+  Vert
+  Mold 2
 
 PVDF006
   P25

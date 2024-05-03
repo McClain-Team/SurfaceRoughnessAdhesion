@@ -1,5 +1,5 @@
 % Load images.
-imageDir = ['/Users/tr3m431/Desktop/zucrow stuff/images/pla' ...
+imageDir = ['/Users/tr3m431/Desktop/zucrow stuff/images/imgset2' ...
     ''];
 scene = imageDatastore(imageDir);
 
@@ -66,13 +66,16 @@ end
 % Initialize xlim and ylim arrays with the correct size
 % Initialize xlim and ylim arrays with the correct size
 numTforms = numel(tforms);
+fprintf("numTforms= %d\n", numTforms);
 xlim = zeros(numTforms-1, 2);
 ylim = zeros(numTforms-1, 2);
 
+% fprintf("numTforms= %d\n", numTforms);
 % Compute the output limits for each transformation.
 for i = 1:numTforms          
+    % fprintf("i= %d\n", i);
     % Check if the index exceeds the number of transformations
-    if i > numTforms
+    if i > 3
         break;
     end
     
@@ -89,7 +92,11 @@ for i = 1:numel(tforms)
     tforms(i).T = Tinv.T * tforms(i).T;
 end
 
-for i = 1:numel(tforms)-1           
+for i = 1:numel(tforms)-1
+    % fprintf("i= %d\n", i);
+    if i > 3
+        break;
+    end
     [xlim(i,:), ylim(i,:)] = outputLimits(tforms(i), [1 imageSize(i,2)], [1 imageSize(i,1)]);
 end
 

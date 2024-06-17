@@ -1,8 +1,2 @@
-Data for each sample
-  Sample (Material, number, assigned sequentially, three digits) (e.g. PVDF001)
-  Date printed
-  Spool
-  Date cast
-  Dims
-  Profilimeter reading
-  UTM data (txt, test data if different than standard (2mm/min))
+Repository for paper data.
+Files are left in format for the Keyence VR-6000 viewer
